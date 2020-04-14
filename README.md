@@ -7,5 +7,8 @@ Foi usado javascript com a biblioteca Jquey para fazer o uso de AJAX. Utilizado 
 
 
 # Instalação
--Execute em localhost com o xampp, wamp e outros.<br/>
--Para criar o banco de dados, tabelas e os dados.Copie e cole o código sql do arquivo: sql_dados.sql no heidiSQL ou PHPmyADMIN.<br/>
+
+<ul>
+  <li>Execute em localhost com o xampp, wamp e outros.</li>
+  <li>Para criar o banco de dados, tabelas e os dados.Copie e cole o código sql do arquivo: sql_dados.sql no heidiSQL ou PHPmyADMIN.</li>
+</ul>
