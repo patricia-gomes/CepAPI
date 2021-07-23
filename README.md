@@ -1,14 +1,19 @@
 # CEP API
-<img src="dominio.png">
+<img src="cepApi.png">
 <br/>
 
-Um formulário que verifica com AJAX no banco se o nome do dominio já foi inserido. E atraves da API cep preenche os campos do endereço digitando apenas o CEP.<br/>
-Foi usado javascript com a biblioteca Jquey para fazer o uso de AJAX. Utilizado PHP e um pouco de SQL também.
+<p>Verifica no banco de dados se o nome do domínio já foi cadastrado sem atualizar a página. Para isso utiliza o AJAX.</p>
+
+## API CEP
+<p>E através da API CEP preenche os campos do endereço digitando apenas o CEP.</p>
+
+## Teconologias
+<p>Foi utilizado Javascript com a biblioteca JQuery para fazer o uso de AJAX. Utilizei também PHP e um pouco de SQL também.</p>
 
 
-# Instalação
+## Instalação
 
 <ul>
-  <li>Execute em localhost com o xampp, wamp e outros.</li>
+  <li>Execute em localhost com o XAMPP, Wamp e outros.</li>
   <li>Para criar o banco de dados, tabelas e os dados.Copie e cole o código sql do arquivo: <i>sql_dados.sql</i> no heidiSQL ou PHPmyADMIN.</li>
 </ul>

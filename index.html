@@ -1,18 +1,20 @@
+
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
 	<title>Cep API</title>
 	<style type="text/css">
 	.area_form {
 		width: 560px;
 		height:auto;
 		padding-bottom:20px;
-		background-color: #DDD;
+		background-color: #a1ccef;
 		font-family: arial;
-		color: #333333;
+		color: #191919;
 	}
 	.aviso {
-		color: grey;
+		color: red;
 	}
 	.area_form form {
 		margin-left: 0px;
@@ -48,13 +50,13 @@
 				- twitter.com
 				- github.com
 		</div><hr/>
-		<form method="POST">
+		
 			Criar dominio:<br/>
-			<small>WWW.</small><input type="text" id="dominio" onkeyup="verificarDominio()" placeholder="dominio.com.br"><br/>
+			<small>WWW.</small><input type="text" name="dominio" id="dominio" placeholder="dominio.com.br"><br/>
 			<div class="listar1"> </div><br/>
 			CEP:<br/>
-			<input type="text" id="cep" onkeyup="verificarCep(this)"><br/>
-			<div class="listar2"></div><br/>
+			<input type="text" id="cep"><br/>
+
 			Estado:<br/>
 			<input type="text" id="estado" disabled><br/>
 			Cidade:<br/>
@@ -67,7 +69,7 @@
 			<input type="text" id="numero" ><br/><br/>
 
 			<input type="submit" name="enviar">
-		</form>
+		
 	</div>
 </center>
 
