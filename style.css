@@ -1,0 +1,74 @@
+.area_form {
+	width: 560px;
+	height:auto;
+	padding-bottom:20px;
+	background-color: #a1ccef;
+	font-family: arial;
+	color: #191919;
+}
+.aviso {
+	color: red;
+}
+.area_form form {
+	margin-left: 0px;
+}
+small {
+	background-color: #9e8c8c;
+    padding: 3px;
+    margin-left: -40px;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 2px;/*espaço entre as letras*/
+}
+.listar1 {
+	width: 170px;
+	height: 20px;
+	background-color: red;
+	line-height: 20px;
+	color:#FFF;
+	float:right;
+	position:absolute;
+	margin-left: 376px;
+	margin-top: -21px;
+	display: none;  
+}
+
+@media (min-width: 432px) and (max-width: 574px) {
+	.area_form {
+		width: 416px;
+	}
+	#dominio {
+		margin-bottom: 20px;
+	}
+	.listar1 {
+		margin-left: 129px;
+   		margin-top: -15px;
+		font-size: 12px;
+	}
+}
+@media (min-width: 379px) and (max-width: 432px) {
+	.area_form {
+		width: 360px;
+	}
+	#dominio {
+		margin-bottom: 20px;
+	}
+	.listar1 {
+		margin-left: 101px;
+   		margin-top: -15px;
+		font-size: 12px;
+	}
+}
+@media (min-width: 320px) and (max-width: 379px) {
+	.area_form {
+		width: 310px;
+	}
+	#dominio {
+		margin-bottom: 20px;
+	}
+	.listar1 {
+		margin-left: 75px;
+   		margin-top: -15px;
+		font-size: 12px;
+	}
+}

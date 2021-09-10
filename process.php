@@ -12,10 +12,9 @@ if(isset($_POST['dominio']) && !empty($_POST['dominio'])) {
 	/*Se o retorno for maior que zero, significa que o dominio já foi cadastrado, caso contrario não foi cadastrado*/
 	if($sql->rowCount() > 0) {
 
-		echo 'Domínio já existe!!';
-
+		echo "Domínio já existe!!";
 	} else {
-		echo 'Domínio disponível!';
+		echo "Domínio disponível";
 	}
 }
 
